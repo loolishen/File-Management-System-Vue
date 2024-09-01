@@ -9,7 +9,7 @@
 
     <!-- Sorting Controls -->
     <div class="sorting-controls">
-      <label for="sortCriterion">Sort by: ㅤㅤㅤㅤ</label>
+      <label for="sortCriterion">Sort by:</label>
       <select id="sortCriterion" v-model="sortedBy" @change="sortFiles">
         <option value="filename">Filename (Alphabetical)</option>
         <option value="uploadDate">Upload Date</option>

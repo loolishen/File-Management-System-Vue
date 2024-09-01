@@ -10,10 +10,10 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:4200', 
-  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-  credentials: true
-}));
+    origin: '*', // Allow requests from this origin
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    credentials: true // Include credentials like cookies in requests if needed
+  }));
 
 app.use(bodyParser.json()); 
 app.use(express.json());
