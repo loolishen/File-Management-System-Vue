@@ -13,36 +13,36 @@ Ensure that you have the following installed:
 
 Clone the Repository
 
-bash
+    bash
 
-git clone https://github.com/your-username/file-management-system.git
-cd file-management-system
+    git clone https://github.com/your-username/file-management-system.git
+    cd file-management-system
 
 Install Dependencies
 
 Run the following command to install the necessary Node.js packages:
 
-bash
+    bash
 
-npm install express body-parser cors multer mongoose axios
+    npm install express body-parser cors multer mongoose axios
 
 Usage
 Running the Backend Server
 
 To start the Express backend server, run:
 
-bash
-
-node server.js
+    bash
+    
+    node server.js
 
 The backend server will start on http://localhost:8081.
 Running the Frontend Server
 
 To start the Vue.js development server, run:
 
-bash
-
-npm run serve
+    bash
+    
+    npm run serve
 
 The frontend will be accessible at http://localhost:8080.
 Accessing the Application
