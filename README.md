@@ -1,12 +1,4 @@
 This project is a simple file management system built with Vue.js for the frontend and Express.js for the backend. The system allows users to upload, view, and delete files with metadata stored in a MongoDB database.
-Table of Contents
-
-    Installation
-    Usage
-    Technologies Used
-    Project Structure
-    API Endpoints
-    License
 
 Installation
 
